@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>image/about1.jpg</file>
+    <file>image/about2.jpg</file>
+    <file>image/公司LOGO-透明.png</file>
+  </qresource>
+</RCC>

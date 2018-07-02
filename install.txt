@@ -1,0 +1,1 @@
+pyinstaller.exe -D C:\Users\itxsn\Documents\WorkArea\Python_DFLZM_Daemon\Daemon.py --noconsole
