@@ -145,7 +145,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "进程守护程序"))
-        self.title.setText(_translate("Form", "进程守护程序 0.1 beta  by ITX_Snowhare"))
+        self.title.setText(_translate("Form", "进程守护程序 0.11 beta  by ITX_Snowhare"))
         self.label.setText(_translate("Form", "程序路径："))
         self.label_2.setText(_translate("Form", "程序名："))
         self.label_4.setText(_translate("Form", "重启计数："))

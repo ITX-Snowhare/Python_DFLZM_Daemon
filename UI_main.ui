@@ -29,7 +29,7 @@
     </font>
    </property>
    <property name="text">
-    <string>进程守护程序 0.1 beta  by ITX_Snowhare</string>
+    <string>进程守护程序 0.11 beta  by ITX_Snowhare</string>
    </property>
   </widget>
   <widget class="Line" name="line">
