@@ -53,6 +53,7 @@ config.read(CONFIGFILE)
 
 ProgramPath = config.get('MonitorProgramPath', 'ProgramPath')
 ProcessName = config.get('MonitorProcessName', 'ProcessName')
+ScanTime = int(config.get('MonitorScanTime', 'ScanTime')) * 1000
 
 count = 0
 
@@ -76,10 +77,10 @@ class mainshow(QtWidgets.QWidget, UI_main.Ui_Form):
         # self.main()
 
         #self.pushButton_2.clicked.connect(self.loop)
-        #self.main()
+        self.main()
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.main)
-        self.timer.start(10000)
+        self.timer.start(ScanTime)
 
     def main(self):
         ProList = []  # 如果在main()函数之外ProList 不会清空列表内容.
